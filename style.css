@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.topBar {
+    background-color: white;
+    background-position: center;
+    width: 100%;
+}
+
+.mainContent {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    max-width: 30%;
+    text-align: center;
+    background-color: white;
+    font-size: x-large;
+    outline-color: gold;
+    outline-style: solid;
+    outline-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.missionStatement {
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 5%;
+    line-height: 200%;
+}
+
+.message {
+    text-align: center;
+    font-size: normal;
+    padding: 1% 5%;
+    line-height: 150%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.links {
+    flex: 1;
+    text-align: center;
+    padding: 1.5% 0px;
+}
+
+img {
+    height: auto;
+    max-width: 50%;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline;
+}
+
+.links ul li a {
+    transition: 0.5s;
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-size: large;
+    padding: 1.5% 4%;
+    margin-right: 2%;
+}
+
+.links ul li a:hover {
+    color: goldenrod;
+    background-color: rgb(235, 235, 235);
+    transition: 0.5s;
+}
+
+hr {
+    border-top: .5px solid rgb(231, 218, 201);
+    border-bottom: none;
+}
+
+/*This runs when the screen becomes less than 700 px wide*/
+@media(max-width: 700px) {
+    .links ul li a {
+        font-size: small;
+    }
+}

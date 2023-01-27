@@ -1,0 +1,50 @@
+.Board {
+    background: rgba(255, 166, 0, 0.25) url("images/bubblePattern.webp");
+    background-blend-mode: lighten;
+    max-width: vw;
+    display: flex;
+    margin: 2.5% 2.5%;
+    padding: 5% 5%;
+    line-height: 200%;
+    border-radius: 5%;
+}
+
+.Board .text {
+    max-width: 50%;
+}
+
+.Board .title {
+    text-align: center;
+}
+
+.programList {
+    display: flex;
+}
+
+.program1 {
+    background-image: url(images/img1.jpg);
+    padding: 10% 10%;
+    width: 13%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Board img {
+    position: relative;
+    margin-left: 7%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5%;
+    height: 30%;
+}
+
+.programs {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.programList {
+    display: flex;
+}

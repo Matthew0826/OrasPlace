@@ -1,3 +1,4 @@
+/*This is the display for the boards*/
 .Board {
     background: rgba(255, 166, 0, 0.25) url("images/bubblePattern.webp");
     background-blend-mode: lighten;
@@ -17,19 +18,6 @@
     text-align: center;
 }
 
-.programList {
-    display: flex;
-}
-
-.program1 {
-    background-image: url(images/img1.jpg);
-    padding: 10% 10%;
-    width: 13%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .Board img {
     position: relative;
     margin-left: 7%;
@@ -39,12 +27,59 @@
     height: 30%;
 }
 
-.programs {
+/*This is the display for the program list*/
+.Programs {
+    padding: 2.5% 2.5%;
+
+}
+
+.Programs h3 {
     font-size: 4vw;
     text-align: center;
     font-weight: bold;
 }
 
-.programList {
+.Programs .list {
+    margin: 20px;
     display: flex;
+}
+
+.program {
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-size: 200%;
+    padding: 10% 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    border-radius: 1%;
+    margin: 5px;
+    border: 2px solid gold;
+    transition: 0.5s;
+}
+
+.program:hover {
+    background-blend-mode: lighten;
+    background-color: rgba(211, 211, 211, 0.498);
+}
+
+#prog1 {
+    background-image: url(images/img1.jpg);
+    border-color: gold;
+}
+
+#prog2 {
+    background-image: url(images/img2.jpg);
+    border-color: orange;
+}
+
+#prog3 {
+    background-image: url(images/img3.jpg);
+    border-color: purple;
+}
+
+.program mark {
+    background-color: rgba(211, 211, 211, 0.683);
 }

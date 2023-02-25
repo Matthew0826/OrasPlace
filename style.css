@@ -112,8 +112,6 @@ nav {
     background-color: white;
 }
 
-
-
 img {
     height: auto;
     max-width: 50%;
@@ -123,8 +121,6 @@ img {
     list-style: none;
     display: inline;
 }
-
-
 
 hr {
     border-top: .5px solid rgb(231, 218, 201);
